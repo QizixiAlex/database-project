@@ -1,3 +1,5 @@
+package util;
+
 import io.bretty.solver.normalization.*;
 
 import java.util.Set;
@@ -14,13 +16,13 @@ public class Resolver {
             System.out.println();
         }
 
-        System.out.println("\n");
-
-        Set<Relation> rbcnf = relation.decomposeToBCNF();
-        for (Relation r:
-                rbcnf) {
-            System.out.println(r);
-            System.out.println();
-        }
+//        System.out.println("\n");
+//
+//        Set<Relation> rbcnf = relation.decomposeToBCNF();
+//        for (Relation r:
+//                rbcnf) {
+//            System.out.println(r);
+//            System.out.println();
+//        }
     }
 }
